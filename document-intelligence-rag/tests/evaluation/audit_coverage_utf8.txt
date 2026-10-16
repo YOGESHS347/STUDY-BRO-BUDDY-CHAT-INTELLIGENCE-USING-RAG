@@ -1,0 +1,73 @@
+======================================================================
+INVESTIGATING CONCEPT COVERAGE (< 1.0):
+======================================================================
+[A2] Category: Category A - Definitions
+  Query: 'What is abstraction?'
+  Top Source: 285_OOPS lecture notes Complete.pdf (p.9) | Score: 0.7568
+  Coverage: 0.67 (2/3)
+  Found: ['abstraction', 'essential features']
+  Missing: ['background details']
+------------------------------------------------------------
+[A5] Category: Category A - Definitions
+  Query: 'What is polymorphism?'
+  Top Source: 285_OOPS lecture notes Complete.pdf (p.3) | Score: 0.7312
+  Coverage: 0.75 (3/4)
+  Found: ['polymorphism', 'overloading', 'virtual']
+  Missing: ['multiple forms']
+------------------------------------------------------------
+[A6] Category: Category A - Definitions
+  Query: 'What is a process?'
+  Top Source: Operating-System (1).csv (p.None) | Score: 0.8089
+  Coverage: 0.67 (2/3)
+  Found: ['process', 'operating system']
+  Missing: ['program in execution']
+------------------------------------------------------------
+[A7] Category: Category A - Definitions
+  Query: 'What is TCP?'
+  Top Source: COMPUTER NETWORKS NOTES.txt (p.None) | Score: 0.8781
+  Coverage: 0.75 (3/4)
+  Found: ['tcp', 'connection', 'reliable']
+  Missing: ['transmission control protocol']
+------------------------------------------------------------
+[B2] Category: Category B - Explanations
+  Query: 'Explain inheritance in Python.'
+  Top Source: PYTHON PROGRAMMING NOTES.docx (p.None) | Score: 0.6551
+  Coverage: 0.50 (2/4)
+  Found: ['inheritance', 'python']
+  Missing: ['base class', 'derived class']
+------------------------------------------------------------
+[B4] Category: Category B - Explanations
+  Query: 'Explain TCP three-way handshake.'
+  Top Source: COMPUTER NETWORKS NOTES.txt (p.None) | Score: 0.6023
+  Coverage: 0.75 (3/4)
+  Found: ['tcp', 'three-way handshake', 'ack']
+  Missing: ['syn']
+------------------------------------------------------------
+[C2] Category: Category C - Code/Example
+  Query: 'Show me the Payment abstraction example.'
+  Top Source: 285_OOPS lecture notes Complete.pdf (p.115) | Score: 1.0000
+  Coverage: 0.50 (2/4)
+  Found: ['abstraction', 'account']
+  Missing: ['transfer', 'payment']
+------------------------------------------------------------
+[D2] Category: Category D - Specific Factual
+  Query: 'What is the function of the transport layer in computer networks?'
+  Top Source: COMPUTER NETWORKS NOTES.txt (p.None) | Score: 0.7317
+  Coverage: 0.75 (3/4)
+  Found: ['transport layer', 'tcp', 'udp']
+  Missing: ['end-to-end']
+------------------------------------------------------------
+[E3] Category: Category E - Multi-Concept
+  Query: 'Explain process vs thread in operating systems.'
+  Top Source: Operating-System (1).csv (p.None) | Score: 0.8095
+  Coverage: 0.67 (2/3)
+  Found: ['process', 'operating system']
+  Missing: ['thread']
+------------------------------------------------------------
+[F1] Category: Category F - Multi-Document
+  Query: 'How is inheritance explained in C++ vs Python across the documents?'
+  Top Source: PYTHON PROGRAMMING NOTES.docx (p.None) | Score: 0.4570
+  Coverage: 0.33 (1/3)
+  Found: ['python']
+  Missing: ['inheritance', 'c++']
+------------------------------------------------------------

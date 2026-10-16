@@ -1,0 +1,10 @@
+topic,question,answer
+Operating System,What is an operating system?,An operating system is system software that acts as an interface between the user and computer hardware. It manages hardware resources and provides services for application programs.
+Operating System,What are the main functions of an operating system?,"The main functions include process management, memory management, file management, device management, security, and resource allocation."
+Process Management,What is a process?,A process is a program that is currently being executed.
+Process Management,What is process scheduling?,Process scheduling is the mechanism used by the operating system to select a process from the ready queue and allocate the CPU to it.
+Memory Management,What is memory management?,Memory management is the operating system function responsible for managing and allocating main memory among processes.
+File Management,What is a file system?,"A file system is a method used by an operating system to organize, store, retrieve, and manage files on a storage device."
+CPU Scheduling,What is CPU scheduling?,CPU scheduling determines which ready process should be given CPU time next.
+Deadlock,What is deadlock?,Deadlock is a situation in which two or more processes are permanently waiting for resources held by each other.
+Virtual Memory,What is virtual memory?,Virtual memory is a memory-management technique that allows a system to use secondary storage as an extension of main memory.
